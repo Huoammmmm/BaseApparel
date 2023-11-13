@@ -1,0 +1,18 @@
+*{
+    float: left;
+    width: 100%;
+    height: 100%;
+    background-image: url('./images/bg-pattern-desktop.svg');
+}
+
+.Luar_Foto{
+    width: 39%;
+    float: right;
+    height: 100%;
+    object-fit: contain;
+}
+
+.Luar_Deskripsi{
+    width: 48%;
+    padding: 20%;
+}

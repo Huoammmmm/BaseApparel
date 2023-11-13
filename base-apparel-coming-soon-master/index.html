@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./style.css">
+
+  <title> Ngeh </title>
+  <script>
+    function checkEmail() {
+      var emailInput = document.querySelector('.transparent-textfield');
+      var emailValue = emailInput.value;
+
+      if (emailValue.includes('@gmail.com')) {
+        alert('Email is valid!');
+      } else {
+        alert('Email is not valid. Please include "@gmail.com" in the email.');
+      }
+    }
+  </script>
+</head>
+<body style="background-image: url('./images/bg-pattern-desktop.svg');">
+  <div class="Luar_Deskripsi">
+
+    <div class="Icon"><img src="./images/logo.svg" alt=""></div>
+
+    <div class="Tulisan">
+    <p style="color: hsl(0, 93%, 68%);">
+      WE'RE
+    </p>
+    <p style="font-weight:bold;">
+      Coming <br> soon
+    </p>
+    <h3><i>Hello fellow shoppers!We're currently building our new <br> 
+    fashion store. Add your email below to stay up-to-date with <br> 
+      announcements and our launch deals </i></h3>
+  </div>
+  
+  <div class="floating-container">
+    <input type="text" class="transparent-textfield" placeholder="Email Address">
+    <button class="floating-button" onclick="checkEmail()"><img src="./images/icon-arrow.svg" alt="arrow"></button>
+  </div>
+
+  </div> 
+  <div class="Luar_Foto">
+    <img src="./images/hero-desktop.jpg" alt="poto">
+  </div>
+</body>
+</html>
